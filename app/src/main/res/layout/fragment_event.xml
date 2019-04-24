@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:background="#FFFFFF"
+        android:fillViewport="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                android:textColor="#2C3335"
+                android:text="Events"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:paddingBottom="15dp"
+                android:textColor="#333945"
+                android:text="Cultural Events"
+                android:paddingTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                app:srcCompat="@drawable/music"
+                android:onClick="music"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dance"
+                android:onClick="dance"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dramatics"
+                android:onClick="drama"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/artanddesign"
+                android:onClick="artfashion"/>
+
+            <ImageButton
+                android:id="@+id/imageButton127"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/photography"
+                android:onClick="photo"/>
+
+            <ImageButton
+                android:id="@+id/imageButton12756"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/debate"
+                android:onClick="debate"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1tg27"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/quiz"
+                android:onClick="quiz"/>
+
+            <ImageButton
+                android:id="@+id/imageButtofn127"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/writing"
+                android:onClick="write"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:paddingBottom="15dp"
+                android:text="Technical Events"
+                android:paddingTop="25dp"
+                android:textColor="#333945"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/programmerparadigms"
+                android:onClick="program"/>
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/recklessrobotronics"
+                android:onClick="robo"/>
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mechanicalmaniacs"
+                android:onClick="mech"/>
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/builderbliss"
+                android:onClick="builder"/>
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/enimaticentepreneurs"
+                android:onClick="entepre"/>
+
+            <ImageButton
+                android:id="@+id/imageButton91"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/astronomy"
+                android:onClick="astro"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>

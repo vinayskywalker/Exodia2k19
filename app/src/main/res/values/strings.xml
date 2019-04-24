@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Exodia</string>
+    <string name="splash_logo">splash_logo</string>
+    <string name="Splash_company">Exodia 2019</string>
+    <string name="Day1">Day 1</string>
+    <string name="Day2">Day 2</string>
+    <string name="Day3">Day 3</string>
+
+
+    <string name="A13">A1–3</string>
+    <string name="SCNKN">SC-NKN</string>
+    <string name="Mechanical_Workshop">Workshop</string>
+    <string name="A1NKN">A1-NKN</string>
+    <string name="PC_Lab">PC Lab</string>
+    <string name="OAT">OAT</string>
+    <string name="Basketball">BB Court</string>
+    <string name="D1front">D1 front</string>
+    <string name="MainStage">Main-Stage</string>
+    <string name="Volly_Court">Volly Court</string>
+    <string name="A9">A9</string>
+    <string name="On_the_spot">On the spot</string>
+    <string name="online">Online</string>
+
+    <string name="Coordinator">Coordinator</string>
+
+
+    <string-array name="Event">
+        <item> Band Slam</item>
+        <item> CADx</item>
+        <item> Rap Battle</item>
+        <item> Line Follower</item>
+        <item> Viaduct</item>
+        <item> Youth Congress</item>
+        <item> Biggest Liar</item>
+        <item> Survivor</item>
+        <item> Pace A Patch</item>
+        <item> Debug</item>
+        <item> Open Mic</item>
+        <item> Mono Act</item>
+        <item> Nitro Car</item>
+        <item> Band Slam</item>
+        <item> Groove fanatics</item>
+        <item> ML/DL</item>
+        <item> Humanoid</item>
+        <item> IOT</item>
+    </string-array>
+
+
+    <string-array name="Venue">
+        <item> Main-Stage</item>
+        <item> A1–3</item>
+        <item> D1 Front</item>
+        <item> SC-NKN</item>
+        <item> A9</item>
+        <item> A1-NKN</item>
+        <item> A1–3</item>
+        <item> A1–3</item>
+        <item> A1–3</item>
+        <item> PC Lab</item>
+        <item> OAT</item>
+        <item> OAT</item>
+        <item> BB Court</item>
+        <item> Main-Stage</item>
+        <item> Main-Stage</item>
+        <item> PC Lab</item>
+        <item> PC Lab</item>
+        <item> PC Lab</item>
+    </string-array>
+
+
+</resources>
